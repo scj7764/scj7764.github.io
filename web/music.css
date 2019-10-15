@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+#btn{
+	width:22px;
+	height:20px;
+	background-image:linear-gradient(90deg,#B2DFEE,#A020F0,#98FB98);
+	margin:185px 0 0 240px;
+	}
+#disc{
+	width:500px;
+	height:500px;
+	border:10px solid #9E9E9E;
+	background-image:repeating-radial-gradient(circle at 50% 50%,#A020F0,#98FB98 0.8%);
+	border-radius:50%;
+	margin:50px auto;
+	}
+ul{
+	width:290px;
+	height:420px;
+	background:#BFEFFF;
+	margin:39px auto;
+	list-style:none;
+	padding:0;
+	border-radius:15px;
+	overflow:hidden;
+	cursor:pointer;
+	}
+ul li{
+	height:39px;
+	text-align:center;
+	line-height:39px;
+	color:#c7c7c7;
+	margin-bottom:2px;
+	background:#FF6 url(images/fuhao.jpg) 10px 5px no-repeat;
+	}
+ul li.tp{
+	height:210px;
+	background:#fff;
+	background-image:url(images/bflogo.png),url(images/paihang.jpg);
+	background-repeat:no-repeat;
+	background-position:50px 10px,50px 170px;
+	}
+.hl{
+	background:#4F94CD;
+	font-weight:bold;}
+.p0{
+	border-left:7px solid #4F94CD;
+	border-top:7px solid transparent;
+	border-bottom:7px solid transparent;
+	}
+.s0{
+	width:3px;
+	height:10px;
+	border:3px solid #40E0D0;
+	border-width:0 3px;
+	}
